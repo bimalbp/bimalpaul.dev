@@ -94,6 +94,7 @@ export default function Home() {
 				transition={{
 					type: "spring",
 					stiffness: 260,
+					
 					damping: 20,
 				}}
 			>
