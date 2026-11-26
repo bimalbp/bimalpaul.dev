@@ -1,0 +1,30 @@
+{
+  "name": "open-salary-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open Salary Data: free, public salary ranges with a source link on every number.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "data:sample": "tsx scripts/make-sample.ts",
+    "data:lca": "tsx scripts/ingest-lca.ts"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3",
+    "exceljs": "^4.4.0",
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

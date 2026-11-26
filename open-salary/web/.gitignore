@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+# Raw downloads (DOL files are 100+ MB); the generated dataset in data/ is committed.
+raw/
